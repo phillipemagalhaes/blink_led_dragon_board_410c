@@ -7,10 +7,15 @@ the LED shine fully bright.
 The circuit schmatic can also be checked on the file circuit.
 ###########################################################################################
 
-In order to run the program follow the steps :
+In order to run the program follow the steps:
+
+$ git clone https://github.com/phillipemagalhaes/blink_led_dragon_board_410c.git
+
+$ cd blink_led_dragon_board_410c
+
 
 Compile the source code (blink_led.c) :
-gcc blink_led.c -o blink_led
+$ gcc blink_led.c -o blink_led
 
 Run the binary file as a superuser :
-sudo ./blink_led
+$ sudo ./blink_led
